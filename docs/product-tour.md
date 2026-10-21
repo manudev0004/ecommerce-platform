@@ -4,9 +4,9 @@
 
 ## The Customer and Staff Journey
 
-A standard product enquiry starts with browsing and a cart. A custom-print enquiry also needs artwork, printing choices and a quantity. The project gives both journeys a place in the storefront, then brings the resulting requests into the administration workspace.
+The platform was conceived for local consumer and business commerce across a broad product catalogue. Customers need to find the right category, compare product information and organise the items they want. The team needs tools to maintain that catalogue and respond with the customer’s requirements in view.
 
-For a customer, the useful outcome is a request with the relevant details attached. For the staff member, it is a conversation that can be reviewed, answered and tracked alongside catalogue work.
+The requested purchase flow uses enquiries: customers submit products and quantities for discussion with the store. The storefront supports browsing, saved selections, individual/company accounts and two-way enquiry conversations. The administration application handles product organisation, customer context, replies and reporting. Custom printing extends this shared platform with a service-specific request form.
 
 ![Storefront with popular, latest and featured product sections](../assets/home-desktop.png)
 
@@ -14,7 +14,8 @@ For a customer, the useful outcome is a request with the relevant details attach
 
 - [Customer Experience](#customer-experience)
 - [Catalogue and Product Details](#catalogue-and-product-details)
-- [Cart and Custom Printing](#cart-and-custom-printing)
+- [Cart and Additional Services](#cart-and-additional-services)
+- [Customer and Admin Chat](#customer-and-admin-chat)
 - [Phone Views](#phone-views)
 - [Administration Workspace](#administration-workspace)
 
@@ -24,10 +25,10 @@ For a customer, the useful outcome is a request with the relevant details attach
 |---|---|
 | Product discovery | Search, category/subcategory/group navigation, filters, sorting and product details |
 | Saved selections | Wishlist and cart, with quantity changes and item removal |
-| Account tools | Profile information, multiple saved addresses and account recovery flows |
+| Customer and business information | Individual/company signup, company name and GSTIN format validation, multiple saved addresses and account recovery flows |
 | Product enquiries | Send selected cart items and quantities to the administration team |
 | Custom printing | Choose a product, size, colour, quantity and print position; upload artwork and submit a request |
-| Follow-up | Enquiry history, request status and replies |
+| Customer chat | Expand an enquiry to read its messages and send a follow-up reply; filter regular and custom-print conversations |
 | Smaller screens | Compact navigation, mobile menus and layouts for browsing and account access |
 
 ### Catalogue and Product Details
@@ -39,14 +40,24 @@ For a customer, the useful outcome is a request with the relevant details attach
 
 The catalogue uses categories, subcategories and groups. Selection state travels in the URL, allowing navigation and breadcrumbs to retain the browsing context. Product cards bring the image, category, price and quick actions together; the detail view provides a closer look before saving or enquiring.
 
-### Cart and Custom Printing
+### Cart and Additional Services
 
 <table>
 <tr><th width="50%">Cart and enquiry</th><th width="50%">Custom-print request</th></tr>
 <tr><td><img src="../assets/cart-desktop.png" width="440" alt="Cart showing a sample product, quantity controls and enquiry action"></td><td><img src="../assets/printing-desktop.png" width="440" alt="Custom-print form with product options and submitted request feedback"></td></tr>
 </table>
 
-The cart collects selected items into an enquiry for the team to follow up. Custom printing has a separate flow because the customer needs to specify artwork and printing choices before the team can respond. The form calculates an estimated price and connects the print request to an enquiry thread.
+The cart collects selected products and quantities into an enquiry for the team to follow up. This supports a buying conversation around a set of requirements, including business purchasing needs.
+
+Custom printing is one additional service. It has a separate form because the customer needs to specify artwork and printing choices before the team can respond. The form calculates an estimated price and connects the print request to an enquiry thread.
+
+## Customer and Admin Chat
+
+The conversation starts from a product enquiry. Customers can open their enquiry history, expand the relevant request and see the selected products and quantities with the messages. They can add a reply when they need to clarify something or ask another question.
+
+Staff use the enquiry workspace to search by name, email, phone or message and filter by request status. An enquiry opens into a chat window with the initial request and timestamped replies, visually separated by customer and administrator. Staff can type a response and update the status from that window. Customer-detail views provide account and address context alongside the request.
+
+A customer reply returns the enquiry to pending, and an administrator reply marks it replied. The conversation remains linked to its original product selection. Custom-print requests use the same reply system with additional artwork and specification details.
 
 ### Phone Views
 
@@ -65,10 +76,10 @@ The administration application brings product maintenance and customer follow-up
 
 | Workspace | Responsibilities |
 |---|---|
-| Catalogue | Add and edit products; manage categories, subcategories and groups |
-| Enquiries | Review customer messages and requested items, reply and update status |
+| Catalogue | Add and edit products, prices, stock fields and featured/popular flags; manage categories, subcategories and groups |
+| Enquiries and chat | Search and filter requests; open a conversation, inspect its product items, reply and update status |
 | Print requests | Review artwork specifications, quantities and request progress |
-| Customer records | Inspect profile and address information needed for follow-up |
+| Customer records | Inspect individual/company details, GSTIN and saved address information needed for follow-up |
 | Store presentation | Manage banners, promotional settings and supporting content |
 | Reporting | Retrieve dashboard summaries through a PostgreSQL reporting function |
 

@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title description">
-  <title id="title">Ecommerce and Custom Printing: from browsing to follow-up</title>
-  <desc id="description">A storefront lets customers browse products and submit artwork; the administration workspace lets the team review requests and respond.</desc>
+  <title id="title">Local Ecommerce Platform: consumer and business buying</title>
+  <desc id="description">A local ecommerce storefront connects a multi-level product catalogue, consumer and business enquiries, and administration tools.</desc>
   <rect width="1200" height="520" rx="20" fill="#11151c"/>
   <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
-    <text x="64" y="57" font-size="25" letter-spacing="2.3" fill="#b8c3d2">STOREFRONT + ADMINISTRATION</text>
-    <text x="60" y="153" font-size="85" font-weight="750" fill="#f6f8fc">Ecommerce</text>
-    <text x="60" y="244" font-size="81" font-weight="750" fill="#ffb65c">Custom Printing</text>
-    <text x="64" y="302" font-size="32" fill="#cbd5e1">Products, artwork and follow-up in one workflow.</text>
+    <text x="64" y="57" font-size="25" letter-spacing="2.3" fill="#b8c3d2">CONSUMER + BUSINESS COMMERCE</text>
+    <text x="60" y="153" font-size="78" font-weight="750" fill="#f6f8fc">Local Ecommerce</text>
+    <text x="60" y="244" font-size="81" font-weight="750" fill="#ffb65c">Platform</text>
+    <text x="64" y="302" font-size="32" fill="#cbd5e1">An online store with enquiries and customer chat.</text>
     <g id="customer-and-team">
       <rect x="64" y="340" width="472" height="118" rx="10" fill="#202a37"/>
-      <text x="92" y="389" font-size="43" font-weight="650" fill="#f6f8fc">Customer</text>
-      <text x="92" y="432" font-size="30" fill="#cbd5e1">Browse + customise</text>
+      <text x="92" y="389" font-size="43" font-weight="650" fill="#f6f8fc">Customers</text>
+      <text x="92" y="432" font-size="30" fill="#cbd5e1">Discover + enquire</text>
       <path d="M557 399h83m-16-16 16 16-16 16" fill="none" stroke="#ffb65c" stroke-width="6"/>
       <rect x="664" y="340" width="472" height="118" rx="10" fill="#ffb65c"/>
       <text x="692" y="389" font-size="43" font-weight="650" fill="#11151c">Team</text>
-      <text x="692" y="432" font-size="30" fill="#11151c">Review + respond</text>
+      <text x="692" y="432" font-size="30" fill="#11151c">Manage + respond</text>
     </g>
-    <text x="64" y="496" font-size="23" fill="#b8c3d2">CATALOGUE / ARTWORK REQUESTS / ENQUIRY CONVERSATIONS</text>
+    <text x="64" y="496" font-size="23" fill="#b8c3d2">NESTED CATALOGUE / CUSTOMER CHAT / ADMIN TOOLS</text>
   </g>
 </svg>
